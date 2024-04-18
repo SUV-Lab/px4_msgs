@@ -3,6 +3,12 @@ uint32 tow          # GPS Time of Week
 float32 pos_x       # Current position X (m)
 float32 pos_y       # Current position Y (m)
 float32 pos_z       # Current position Z (m)
+float64 lat         # Latitude, (degrees)
+float64 lon         # Longitude, (degrees)
+float32 alt         # Altitude AMSL, (meters)
+float64 ref_lat     # Reference point latitude, (degrees)
+float64 ref_lon     # Reference point longitude, (degrees)
+float32 ref_alt     # Reference altitude AMSL, (metres)
 float32 head        # Heading (degree)
 float32 roll        # Roll
 float32 pitch       # Pitch
